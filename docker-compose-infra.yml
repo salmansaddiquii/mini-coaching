@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:15
+    networks:
+      - nt-coaching-infra
+    volumes:
+      - ./data-dir/postgres01:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    networks:
+      - nt-coaching-infra
+
+networks:
+  nt-coaching-infra:
+    name: nt-coaching-infra

@@ -1,7 +1,3 @@
-Great — based on the details you provided, here's a well-structured and professional `README.md` for your repository. You can customize the project title and description as needed:
-
----
-
 # 🚀 Mini Coaching Platform
 
 A full-stack web application for managing coaching services, built with **Ruby on Rails**, **Sidekiq**, **PostgreSQL**, **Redis**, and a modern **React + Vite** frontend.

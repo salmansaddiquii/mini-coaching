@@ -2,7 +2,6 @@ Great — based on the details you provided, here's a well-structured and profes
 
 ---
 
-````markdown
 # 🚀 Mini Coaching Platform
 
 A full-stack web application for managing coaching services, built with **Ruby on Rails**, **Sidekiq**, **PostgreSQL**, **Redis**, and a modern **React + Vite** frontend.
